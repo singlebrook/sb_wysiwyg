@@ -1,0 +1,29 @@
+<?php
+/**
+ * @file
+ * Code for the SB WYSIWYG feature.
+ */
+
+include_once 'sb_wysiwyg.features.inc';
+
+/**
+ * Implements hook_theme_registry_alter().
+ */
+function sb_wysiwyg_theme_registry_alter(&$theme_registry) {
+
+  // Set up IMCE to use our custom content template. This is the File Browser
+  // window.
+  if (isset($theme_registry['imce_content'])) {
+    $path = drupal_get_path('module', 'sb_wysiwyg');
+    $theme_registry['imce_content']['template'] = 'sb-imce-content';
+    $theme_registry['imce_content']['path'] = $path;
+  }
+}
+
+/**
+ * Implements hook_ckeditor_settings_alter().
+ */
+function sb_wysiwyg_ckeditor_settings_alter(&$settings, $conf) {
+  // Set to use this features custom styles.
+  $settings['stylesCombo_stylesSet'] = 'drupal:/' . drupal_get_path('module', 'sb_wysiwyg') . '/ckeditor.styles.js';
+}

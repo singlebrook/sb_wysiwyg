@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * @file
+ * Installs, updates, and uninstalls SB WYSIWYG.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function sb_wysiwyg_install() {
+  drupal_set_message(t('After installing please check permissions and settings for Better Formats, text formats, IMCE and CKEDITOR Link. Then update this feature.'));
+}
