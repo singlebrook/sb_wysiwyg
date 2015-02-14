@@ -1,4 +1,11 @@
 <?php
+/**
+ * @file
+ * The template file for the IMCE file management popup.
+ *
+ * We're changing this from the default to allow larger images to show and to
+ * use the experimental box / icon display of files rather than the list.
+ */
 $imce =& $imce_ref['imce'];//keep this line.
 ?>
 

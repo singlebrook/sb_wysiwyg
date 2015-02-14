@@ -4,6 +4,8 @@ For licensing, see LICENSE.html or http://ckeditor.com/license
 */
 
 /*
+ * Edit this to add custom styles.
+ * 
  * This file is used/requested by the 'Styles' button.
  * The 'Styles' button is not enabled by default in DrupalFull and DrupalFiltered toolbars.
  */
