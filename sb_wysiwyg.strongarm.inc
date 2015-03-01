@@ -149,12 +149,20 @@ function sb_wysiwyg_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'imce_roles_profiles';
   $strongarm->value = array(
+    4 => array(
+      'weight' => '0',
+      'public_pid' => '3',
+    ),
+    3 => array(
+      'weight' => '0',
+      'public_pid' => '3',
+    ),
     2 => array(
-      'oembed_pid' => '3',
+      'weight' => 11,
       'public_pid' => '3',
     ),
     1 => array(
-      'oembed_pid' => 0,
+      'weight' => 12,
       'public_pid' => 0,
     ),
   );
