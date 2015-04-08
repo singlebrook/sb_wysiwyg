@@ -8,6 +8,7 @@ projects[] = ckeditor
 projects[] = ckeditor_link
 projects[] = ctools
 projects[] = features
+projects[] = image_resize_filter
 projects[] = imce
 projects[] = imce_mkdir
 projects[] = strongarm
