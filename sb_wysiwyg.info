@@ -13,6 +13,7 @@ dependencies[] = filter
 dependencies[] = imce
 dependencies[] = imce_mkdir
 dependencies[] = strongarm
+features[ckeditor_profile][] = Advanced
 features[ckeditor_profile][] = CKEditor Global Profile
 features[ckeditor_profile][] = Full
 features[ctools][] = strongarm:strongarm:1
