@@ -22,7 +22,7 @@ function sb_wysiwyg_filter_default_formats() {
         'weight' => -48,
         'status' => 1,
         'settings' => array(
-          'allowed_html' => '<h2> <h3> <h4> <h5> <h6> <em> <strong> <pre> <code> <del> <img> <blockquote> <q> <cite> <sup> <sub> <p> <span> <br> <ul> <ol> <li> <dl> <dt> <dd> <a> <b> <u> <i> <!-->',
+          'allowed_html' => '<h2> <h3> <h4> <h5> <h6> <em> <strong> <pre> <code> <del> <img> <blockquote> <q> <cite> <sup> <sub> <p> <span> <br> <ul> <ol> <li> <dl> <dt> <dd> <a> <b> <u> <i> <!--> <figure> <figcaption>',
           'filter_html_help' => 1,
           'filter_html_nofollow' => 0,
         ),
