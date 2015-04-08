@@ -52,13 +52,6 @@ In `css/ckeditor_contents.css` you can add custom css to load into the editor.
 The default template is overridden to allow larger images to show and to
 use the experimental box / icon display of files rather than the list.
 
-# Font icons module
-
-Used on the Pathways site, the font icons module (a socialfield sub module) loads fonts and css for icons
-from fontello.com. If used, this feature will load the css into the editor
-so the font icons appear. Consider this an example of how to load custom css from
-a library or contrib module into the editor.
-
 # Contribution
 
 Bug reports, improvements, and additions are welcome via pull request!

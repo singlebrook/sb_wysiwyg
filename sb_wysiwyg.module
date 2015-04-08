@@ -29,12 +29,4 @@ function sb_wysiwyg_ckeditor_settings_alter(&$settings, $conf) {
 
   // Add a custom css file for editing styles.
   $settings['contentsCss'][] = '/' . drupal_get_path('module', 'sb_wysiwyg') . '/css/ckeditor_contents.css';
-
-  // If using font icons module (for social field) load the font icons css.
-  if (module_exists('font_icons')) {
-    $font = font_icons_libraries_info();
-    foreach ($font as $name => $library) {
-      $settings['contentsCss'][] = '/sites/all/libraries/' . $name . '/' . $library['files']['css'][0];
-    }
-  }
 }
