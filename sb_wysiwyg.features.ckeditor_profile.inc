@@ -83,7 +83,7 @@ function sb_wysiwyg_ckeditor_profile_defaults() {
         'html_entities' => 'f',
         'scayt_autoStartup' => 'f',
         'theme_config_js' => 't',
-        'js_conf' => '',
+        'js_conf' => 'config.image2_alignClasses = [ \'media-left\', \'center-block\', \'media-right\' ];',
         'loadPlugins' => array(
           'ckeditor_link' => array(
             'name' => 'drupal_path',
